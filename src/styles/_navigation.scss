@@ -1,0 +1,28 @@
+.mobile-navigation {
+  display: block;
+}
+
+.tablet-navigation,
+.desktop-navigation {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile-navigation {
+    display: none;
+  }
+
+  .tablet-navigation {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tablet-navigation {
+    display: none;
+  }
+
+  .desktop-navigation {
+    display: block;
+  }
+}

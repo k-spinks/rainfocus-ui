@@ -1,0 +1,35 @@
+@use './variables' as *;
+
+.create-card-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 24px 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: $text-secondary;
+  }
+}
+
+@media (min-width: 1200px) {
+  .create-card-div {
+    width: 100%;
+    max-width: 340px;
+    min-height: 120px;
+  }
+}

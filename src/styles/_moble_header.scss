@@ -1,0 +1,25 @@
+.mobile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 0.75rem 1rem;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.mobile-header-logo {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.mobile-header-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}

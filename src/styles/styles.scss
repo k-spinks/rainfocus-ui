@@ -1,0 +1,14 @@
+@use './reset';
+@use './variables' as *;
+@use './mobile_navbar';
+@use './main';
+@use './attendee_card';
+@use './create_card';
+@use './navigation';
+@use './tablet_navbar';
+@use './moble_header';
+@use './desktop_navbar';
+
+body {
+  font-family: $font-primary;
+}
