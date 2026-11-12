@@ -34,11 +34,16 @@ Start the development server:
 npm run dev
 ```
 
+### Opening in codespace sandbox
+
+Install dependencies:
+
+- Stackblitz should automatically install dependencies upon load
+- If errors occur open link within incognito browser.
+
 ### Opening from zip file
 
 - Unzip folder and open `dist/index.html`
-
-Open the local URL provided by Vite.
 
 ## Mobile view/Navigation
 
