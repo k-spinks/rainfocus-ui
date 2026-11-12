@@ -20,6 +20,8 @@ A responsive frontend recreation of a RainFocus event management dashboard, buil
 
 ## Getting Started
 
+### Opening in code editor
+
 Install dependencies:
 
 ```bash
@@ -31,6 +33,10 @@ Start the development server:
 ```bash
 npm run dev
 ```
+
+### Opening from zip file
+
+- Unzip folder and open `dist/index.html`
 
 Open the local URL provided by Vite.
 
