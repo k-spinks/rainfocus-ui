@@ -38,8 +38,20 @@ npm run dev
 
 Install dependencies:
 
-- Stackblitz should automatically install dependencies upon load
-- If errors occur open link within incognito browser.
+- Stackblitz should automatically install dependencies upon load if it does not run
+  Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+- If errors occur when trying to run app open link within incognito browser to fix.
 
 ### Opening from zip file
 
