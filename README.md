@@ -51,6 +51,9 @@ Start the development server:
 npm run dev
 ```
 
+- To open in new tab click the button next to the 'x' near the url
+  ![Stackblitz](/src/public/stackblitz.png)
+
 - If errors occur when trying to run app open link within incognito browser to fix.
 
 ### Opening from zip file
